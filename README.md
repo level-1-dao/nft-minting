@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Steps to starting project--->
 
 Initial Project SetUp
@@ -16,5 +17,3 @@ Start Local Development
 6.  Make sure Metamask is connect to localhost:8545
 7.  open console to see processes/logs
 8. some of the rendering is buggy, possibly will need to refresh page to get button to work
-=======
->>>>>>> bbdf9d4 (Initial commit)
