@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-Steps to starting project--->
-
 Initial Project SetUp
 1.  git clone, yarn to add deps
 2.  ONE TIME ONLY: create .env at root and add `GENERATE_SOURCEMAP=false`
