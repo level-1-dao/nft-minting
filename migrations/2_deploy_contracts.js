@@ -77,7 +77,7 @@ module.exports = async function (deployer) {
 
 
   //inital deposit to fund the paymaster
-  await relayHub.depositFor(paymaster.address, {from:"0xe4632110872c2213b6E0C5B7b6a88583124a15a0", value: 1e18.toString()})
+  await relayHub.depositFor(paymaster.address, {from:"0x0CE7f3bF15388653ab148cfC8272be6b1Ad98B16", value: 1e18.toString()})
   
   console.log(`1 ETH deposited to Paymaster(${WhitelistPaymaster.address})`)
 
