@@ -24,7 +24,6 @@ contract Level1Completion is BaseRelayRecipient, ERC721Enumerable, ERC721URIStor
 
 
     function awardCertificate(address learner, string memory tokenImg) public returns (uint256) {
-        require(balanceOf(learner) == 0, "learner has already been awarded this token");
         _tokenIds.increment();
 
         uint256 newItemId = _tokenIds.current();
